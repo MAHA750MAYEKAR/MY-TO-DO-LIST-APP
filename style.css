@@ -1,0 +1,71 @@
+.navToDo{
+    text-align: center;
+    background-color: rgb(206, 127, 173);
+    height: 5rem;
+   padding: 0.1px;
+   border-radius: 10px;
+   border: 3px solid rgb(56, 75, 75);;
+}
+
+.parent{
+    display: flex;
+}
+
+
+.addTask{
+    width: 40%;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-weight: 900;
+   
+
+}
+
+.taskList{
+    
+    width: 60%;
+   
+    
+}
+#inputaddTask{
+    padding: 10px;
+    width: 90%;
+    max-width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: large;
+}
+.btn-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(9, 145, 38);
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+.taskListheader{
+    text-align: center;
+    background-color: rgb(73, 73, 209);
+    padding: 8px;
+}
+#task-list-div{
+    border: 1px solid rgb(104, 100, 100);
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+.task-list-item{
+    margin: 5px;
+    padding: 15px;
+}
+body{
+    background-color: rgb(228, 211, 211);
+}
+.red-btn{
+    background-color: red;
+}
